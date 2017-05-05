@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+  body {
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 1000px;
+  }
+  /* the actual CSS to make them evenly spaced: */
+
+  .container {
+      display: flex;
+      justify-content: space-between;
+  }
+  #bigger {
+      display: flex;
+      justify-content: space-between;
+  }
+
+
+
+  /* just some presentational styles: */
+
+
+
+  .container div {
+      width: 21vw;
+      height: 21vw;
+      background: rgb(30, 156, 136);
+      border-color: rgb(41, 41, 41);
+
+      max-width: 233px;
+      max-height:233px;
+  }
+  #bigger div {
+      width: 44vw;
+      height: 44vw;
+      background: rgb(30, 156, 136);
+      border-color: rgb(41, 41, 41);
+      margin-top:2%;
+      max-width:490px;
+      max-height:490px;
+  }
+
+
+  .container div:first-child {
+      border-left: 0;
+  }
+
+  .container div:last-child {
+      border-right: 0;
+  }
+  #bigger div:first-child {
+      border-left: 0;
+  }
+
+  #bigger div:last-child {
+      border-right: 0;
+  }
+  </style>
+
+</head>
+
+<body>
+  <div class="container" style="margin-top:2%;">
+     <div></div>
+     <div></div>
+     <div></div>
+     <div></div>
+  </div>
+
+  <div class="container" style="margin-top:2%;">
+     <div></div>
+     <div></div>
+     <div></div>
+     <div></div>
+  </div>
+
+
+
+  <div id="bigger">
+     <div></div>
+     <div></div>
+  </div>
+
+  <div class="container" style="margin-top:2%;">
+     <div></div>
+     <div></div>
+     <div></div>
+     <div></div>
+  </div>
+
+  <div class="container" style="margin-top:2%;">
+     <div></div>
+     <div></div>
+     <div></div>
+     <div></div>
+  </div>
+
+</body>
+</html>
+
+
+<div id="container">
+<div id="div1" class="smallerdivs"> </div>
+<div id="div2" class="smallerdivs"> </div>
+<div id="div3" class="smallerdivs"> </div>
+<div id="div4" class="smallerdivs"> </div>
+
+<div id="div5" class="largerdivs" > </div>
+<div id="div6" class="largerdivs"> </div>

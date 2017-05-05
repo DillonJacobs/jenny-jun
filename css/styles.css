@@ -1,0 +1,310 @@
+#demo {
+ background-image:url(final_gallery.jpg);
+width:100%; }
+
+
+ .poop {
+   width:10%;
+    }
+/* title*/
+h3 {font-family: gotham;font-weight: lighter;font-size: 18px;color: #6d6e71;}
+
+
+/* menu text*/
+h1 {font-family: gotham;font-weight: lighter;font-size:18px;color: #6d6e71;text-align: center;margin-top:20px;}
+ul {margin: -10px auto;padding: 0;display: table;list-style: none;}
+ul a{
+  -webkit-transition: color .3s ease-in-out;
+  -moz-transition: color .3s ease-in-out;
+  -o-transition: color .3s ease-in-out;
+  transition: color .3s ease-in-out;
+}
+li {float:left;width:auto;padding-left:10px;padding-right:10px;}
+#menu {margin: 0;display: block;height: 50px;width:100%;padding:0px;}
+
+/* body text*/
+p {font-family: gotham;font-weight: normal;font-size:12px;color: #6d6e71;}
+
+/*links*/
+a {font-size: 10px;font-family: gotham;color: #6d6e71;}
+a:link {color: #6d6e71;text-decoration: none;}
+a:visited {color: #6d6e71;text-decoration: none;}
+a:hover {color: black;}
+a:active {color: #000000;text-decoration: none;}
+
+
+body {
+width:90%;
+margin-left:auto;
+margin-right:auto;
+max-width: 1000px;
+height:auto;
+}
+
+.lightboxpic {width: 33vw;}
+
+.mainpicture{
+  opacity:1;
+  -webkit-transition: opacity .3s ease-in-out;
+  -moz-transition: opacity .3s ease-in-out;
+  -o-transition: opacity .3s ease-in-out;
+  transition: opacity .3s ease-in-out;
+}
+.mainpicture:hover {opacity: .7;}
+
+#jennyjun{font-size:18px!important;
+  -webkit-transition: color .2s ease-in-out;
+  -moz-transition: color .2s ease-in-out;
+  -o-transition: color .2s ease-in-out;
+  transition: color .2s ease-in-out;}
+
+
+
+
+
+
+#div1 {}
+#div2 {}
+#div3 {margin-left:1%;}
+#div4 {margin-right:2%;}
+#div5 {margin-left: 2%;}
+#div6 {margin-right: 2%;float:right;}
+
+
+
+.smallerdivs {
+width:20vw;
+height:20vw;
+margin:auto;
+display:inline-block;
+background-color:red;
+}
+
+.container {
+display: flex;
+justify-content: space-between;
+}
+
+
+.largerdivs {
+width:41vw;
+height:41vw;
+margin:0px;
+display:inline-block;
+background-color:blue;
+}
+#leftlarge{margin-left: 1%;}
+#rightlarge{margin-right: 1%;}
+#bigger {
+display: flex;
+justify-content: space-between;
+}
+
+
+.container div {
+width: 21vw;
+height: 21vw;
+max-width: 233px;
+max-height:233px;
+background-size: 100%;
+overflow:hidden;
+margin-top:2%;
+}
+#bigger div {
+width: 43.5vw;
+height: 43.5vw;
+max-width:490px;
+max-height:490px;
+background-size: 100%;
+margin-top:2%;
+overflow:hidden;
+}
+.threecolumn div{
+  width:100%;
+  height:50vw;
+  max-width: 1033px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#picture{
+  margin-left:auto;
+  margin-right:auto;
+  background-color: red;
+}
+.container div:first-child {border-left: 0;}
+.container div:last-child {border-right: 0;}
+#bigger div:first-child {border-left: 0;}
+#bigger div:last-child {border-right: 0;}
+#box1{background-image: url("file:///Users/dillonjacobson2/Design/sites/jennyjun/img/crop.jpg" );}
+#box2{background-image: url("file:///Users/dillonjacobson2/Design/sites/jennyjun/img/crop2.jpg");}
+#box3{background-image: url("file:///Users/dillonjacobson2/Design/sites/jennyjun/img/crop3.jpg");}
+#box4{background-image: url("file:///Users/dillonjacobson2/Design/sites/jennyjun/img/crop4.jpg");}
+#box5{background-image: url("file:///Users/dillonjacobson2/Design/sites/jennyjun/img/crop5.jpg");}
+#box6{background-image: url("file:///Users/dillonjacobson2/Design/sites/jennyjun/img/crop6.jpg");}
+#box7{background-image: url("file:///Users/dillonjacobson2/Design/sites/jennyjun/img/crop7.jpg");}
+#box8{background-image: url("file:///Users/dillonjacobson2/Design/sites/jennyjun/img/crop8.jpg");}
+#bigbox1{background-image: url("file:///Users/dillonjacobson2/Design/sites/jennyjun/img/crop9.jpg");}
+#bigbox2{background-image: url("file:///Users/dillonjacobson2/Design/sites/jennyjun/img/crop10.jpg");}
+#box11{background-image: url("file:///Users/dillonjacobson2/Design/sites/jennyjun/img/crop11.jpg");}
+#box12{background-image: url("file:///Users/dillonjacobson2/Design/sites/jennyjun/img/crop12.jpg");}
+#box13{background-image: url("file:///Users/dillonjacobson2/Design/sites/jennyjun/img/crop13.jpg");}
+#box14{background-image: url("file:///Users/dillonjacobson2/Design/sites/jennyjun/img/crop14.jpg");}
+#box15{background-image: url("file:///Users/dillonjacobson2/Design/sites/jennyjun/img/crop15.jpg");}
+#box16{background-image: url("file:///Users/dillonjacobson2/Design/sites/jennyjun/img/crop16.jpg");}
+#box17{background-image: url("file:///Users/dillonjacobson2/Design/sites/jennyjun/img/crop17.jpg");}
+#box18{background-image: url("file:///Users/dillonjacobson2/Design/sites/jennyjun/img/crop18.jpg");}
+
+#leftdiv{
+  margin-top:50px;
+  width:530px;
+  float:left;
+}
+
+
+#aboutwrap {
+  max-width: 450px;
+  display:inline-block;
+  margin: 0 auto;
+float:right;
+padding-top:20px;
+}
+
+.rightfacts {
+display:inline;
+float:right
+}
+
+@media only screen and (min-width: 420px) {
+  #test{
+   float:right; 
+  }
+
+}
+#test{
+text-align: right;
+}
+body {
+
+    line-height: 200%;
+}
+#picture{
+
+  width:490px;
+  height:490px;
+  margin: 0px auto 50px;
+    background-image: : #6d6e71;
+}
+#bio {
+  width:490px;
+  height:auto;
+  margin: 0 auto;
+  text-align: left;
+}
+#contact {
+width:490px;
+
+  margin: 30px auto 100px;
+}
+#widthhr, #widthhr1{
+  display:none;
+}
+@media only screen and (max-width: 1090px) {
+  #leftdiv{
+    margin-top:50px;
+    width:100%;
+    margin-right:auto;
+    margin-left:auto;
+  }
+#aboutwrap{
+  margin: 0 auto 100px;
+  clear:both;
+  display:block;
+  float:none;
+  max-width:490px;
+  width:100%;
+    max-width: 490px;
+    padding-top:100px;
+}
+#widthhr{
+  margin:0 auto;
+display:block;
+border-style:solid;
+border-width: 1px 0 0 0;
+border-color:#6d6e71;
+width:490px;
+}
+#widthhr1{
+  margin:0 auto 100px;
+display:block;
+border-style:solid;
+border-width: 1px 0 0 0;
+border-color:#6d6e71;
+width:490px;
+}
+
+#picture{
+max-width:490px;
+  width:100%;
+  height:490px;
+  margin: 0px auto 100px;
+    background-image: : #6d6e71;
+}
+#bio{
+  max-width:490px;
+  width:100%;
+}
+#widthhr, #widthhr1{
+  max-width:490px;
+  width:90%;
+}
+#contact{
+  width:100%;
+  max-width:490px;
+}}
+/*
+@media screen and (max-width: 800px) {
+    .container{
+      flex-wrap: wrap;
+    }
+    .container div {
+width: 42vw;
+height: 42vw;
+background-size: 100%;
+overflow:hidden;
+
+    max-width: 466px;
+    max-height: 466px;
+    margin-bottom:2%;
+}
+#bigger{
+  flex-wrap:wrap;
+  margin-bottom:2%;
+}
+#bigger div{
+  width:90vw;
+  height:90vw;
+  max-height:980px;
+  max-width:980px;
+  ;
+}
+}*/
+@media screen and (max-width: 800px) {
+.container, div#bigger{
+  display:none;}}
+
+
+@media screen and (min-width: 800px) {
+div#mobilepics{
+  display:none;
+}
+}
+
+
+@media screen and (max-width: 375px) {
+a{
+  font-size:7.7px;
+}
+}
+
+}

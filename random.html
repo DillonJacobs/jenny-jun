@@ -1,0 +1,68 @@
+<html>
+<head>
+
+  <style>
+
+body {
+  margin:0px!important;
+padding:0px!important;
+width:100%!important;
+max-width: none!important;
+}
+
+#crop {
+
+}
+
+  </style>
+
+  <script src="js/jquery-1.12.0.js"></script>
+<link href="css/jquery.bxslider.css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+<link rel="stylesheet" type="text/css" href="css/featherlight.css">
+
+
+
+<script>
+
+$( document ).ready(function() {
+$('.bxslider').bxSlider({
+  mode: 'horizontal',
+pagerCustom: '#bx-pager',
+nextText:"hey!"
+});
+});
+
+</script>
+<body>
+<a href="#" data-featherlight="#mylightbox">Open element in lightbox</a>
+
+<div id="mylightbox">
+  <span id="yoyo">
+<ul class="bxslider">
+  <li ><img src="img/normalsize00.jpg" /></li>
+  <li><img src="img/normalsize01.jpg" /></li>
+  <li><img src="img/normalaize02.jpg" /></li>
+  <li><img src="img/normalsize03.jpg" /></li>
+</span>
+
+</ul>
+<div id="bx-pager">
+  <a data-slide-index="0" href=""><img src="img/thumbnail00.jpg" /> </a>
+  <a data-slide-index="1" href=""><img src="img/thumbnail01.jpg" /> </a>
+  <a data-slide-index="2" href=""><img src="img/thumbnail02.jpg" /> </a>
+  <a data-slide-index="3" href=""><img src="img/thumbnail03.jpg" /> </a>
+</div>
+
+
+This div will be opened in a lightbox
+</div>
+
+
+<a data-slide-index="0" href=""></a>
+
+<script src="js/jquery.bxslider.min.js"></script>
+<script src="js/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

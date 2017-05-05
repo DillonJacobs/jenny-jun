@@ -1,0 +1,78 @@
+<html>
+<head>
+
+  <style>
+  .featherlight .featherlight-content .navigation {
+      display: block;
+      margin: 10px auto 0;
+      width: 100%;
+      clear: both;
+      text-align: center;
+  }
+  .featherlight .featherlight-content .navigation a {
+      background: transparent none;
+      border: 1px solid #000000;
+      display: inline-block;
+      margin: 0 10px;
+      height: 10px;
+      width: 10px;
+  }
+  .featherlight .featherlight-content .navigation a.active {
+      background-color: #000000;
+  }
+  </style>
+
+  <script src="js/jquery-1.12.0.js"></script>
+
+
+
+ <!-- Add fancyBox -->
+ <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+ <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+ <!-- Optionally add helpers - button, thumbnail and/or media -->
+ <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+ <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+ <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+ <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+ <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+
+
+
+ <script type="text/javascript">
+ 	$(document).ready(function() {
+    $(".fancybox-thumb").fancybox({
+  		prevEffect	: 'none',
+  		nextEffect	: 'none',
+  		helpers	: {
+  			title	: {
+  				type: 'outside'
+  			},
+  			thumbs	: {
+  				width	: 50,
+  				height	: 50
+  			}
+  		}
+  	});
+  });
+ </script>
+
+
+<script src="js/jquery.bxslider.min.js"></script>
+<body>
+  <a class="fancybox-thumb" rel="fancybox-thumb" href="img/normalsize00.jpg" title="Morning Twilight (Jose Hamra Images)">
+  	<img src="img/thumbnail00.jpg" alt="" />
+  </a>
+  <a class="fancybox-thumb" rel="fancybox-thumb" href="img/normalsize01.jpg" title="(Eric Goncalves (cathing up again!))">
+  	<img src="img/thumbnail01.jpg" alt="" />
+  </a>
+  <a class="fancybox-thumb" rel="fancybox-thumb" href="img/normalsize02.jpg" title="Arctic Paradise (Tom Draxler)">
+  	<img src="img/thumbnail02.jpg" alt="" />
+  </a>
+  <a class="fancybox-thumb" rel="fancybox-thumb" href="img/normalsize03.jpg" title="Rodeo Dusk (_JonathanMitchellPhotography_)">
+  	<img src="img/thumbnail03.jpg" alt="" />
+  </a>
+</body>
+</html>

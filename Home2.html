@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width" />
+  <style>
+  .fade div {
+    transition: all 0.1s ease;
+    background: red;
+    padding: 10px;
+  }
+  .fade:hover {
+    background: green;
+    padding: 20px;
+  }
+  .st0:hover{
+  	fill:#000000;}
+#maincontent{
+  display:none;
+  -webkit-opacity: .99;
+}
+
+#thumbnail{
+  height:auto;
+  width:100%;
+}
+.slidebutton{
+width:35px;
+-webkit-transition: width .1s ease-in-out;
+-moz-transition: width .1s ease-in-out;
+-o-transition: width .1s ease-in-out;
+transition: width .1s ease-in-out;
+}
+.slidebutton:hover{
+width:38px;
+}
+div.lg-thumb.group {
+margin-left: auto !important;
+margin-right: auto !important;
+}
+.lg-autoplay-button{
+  display:none;
+}
+.lg-thumb-item{
+  opacity:.6;
+}
+.lg-thumb-item.active{
+  opacity:1;
+}
+  </style>
+
+
+</head>
+
+<script src="js/jquery-1.12.0.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<link type="text/css" rel="stylesheet" href="css/lightGallery.css" />
+
+<script type="text/javascript">
+$(document).ready(function() {
+  $('#maincontent').fadeIn("slow");
+});
+</script>
+
+
+
+<div id="maincontent">
+  <body>
+      <H1> <a id="jennyjun" href="home.html"> JENNY JUN </a></H1>
+                  <ul id="menulist">
+                      <li><a href="painting.html"> PAINTING</a></li>
+                      <li><a href="drawing.html"> DRAWING</a></li>
+                      <li><a href="photos.html"> PHOTOS</a></li>
+                      <li><a href="events.html"> EVENTS</a></li>
+                      <li><a href="about.html"> ABOUT</a></li>
+                 </ul>
+<br>
+      <div class="container" id="lightgallery">
+
+                <div class="mainpicture item" data-src="img/normalsize00.jpg" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
+                    <a href="">
+                        <img id="thumbnail" class="img-responsive" src="img/thumbnail00.jpg">
+                    </a>
+                </div>
+                <div class="mainpicture item" data-src="img/normalsize00.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
+                    <a href="">
+                        <img id="thumbnail" class="img-responsive" src="img/thumbnail00.jpg">
+                    </a>
+                </div>
+                <div class="mainpicture item" data-src="img/normalsize00.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
+                    <a href="">
+                        <img id="thumbnail" class="img-responsive" src="img/thumbnail00.jpg">
+                    </a>
+                </div>
+                <div class="mainpicture item" data-src="img/normalsize00.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
+                    <a href="">
+                        <img id="thumbnail" class="img-responsive" src="img/thumbnail00.jpg">
+                    </a>
+                </div>
+                </div>
+      <div class="container" id="lightgallery">
+
+                <div class="mainpicture item" data-src="img/normalsize00.jpg" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
+                    <a href="">
+                        <img id="thumbnail" class="img-responsive" src="img/thumbnail00.jpg">
+                    </a>
+                </div>
+                <div class="mainpicture item" data-src="img/normalsize00.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
+                    <a href="">
+                        <img id="thumbnail" class="img-responsive" src="img/thumbnail00.jpg">
+                    </a>
+                </div>
+                <div class="mainpicture item" data-src="img/normalsize00.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
+                    <a href="">
+                        <img id="thumbnail" class="img-responsive" src="img/thumbnail00.jpg">
+                    </a>
+                </div>
+                <div class="mainpicture item" data-src="img/normalsize00.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
+                    <a href="">
+                        <img id="thumbnail" class="img-responsive" src="img/thumbnail00.jpg">
+                    </a>
+                </div>
+            </div>
+            <div id="bigger">
+<div class="mainpicture item" data-src="img/normalsize00.jpg" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
+                    <a href="">
+                        <img id="thumbnail" class="img-responsive" src="img/thumbnail00.jpg">
+                    </a>
+                </div>
+                <div class="mainpicture item" data-src="img/normalsize00.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
+                    <a href="">
+                        <img id="thumbnail" class="img-responsive" src="img/thumbnail00.jpg">
+                    </a>
+                </div>
+
+            </div>
+            <div class="container" id="lightgallery">
+
+                <div class="mainpicture item" data-src="img/normalsize00.jpg" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
+                    <a href="">
+                        <img id="thumbnail" class="img-responsive" src="img/thumbnail00.jpg">
+                    </a>
+                </div>
+                <div class="mainpicture item" data-src="img/normalsize00.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
+                    <a href="">
+                        <img id="thumbnail" class="img-responsive" src="img/thumbnail00.jpg">
+                    </a>
+                </div>
+                <div class="mainpicture item" data-src="img/normalsize00.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
+                    <a href="">
+                        <img id="thumbnail" class="img-responsive" src="img/thumbnail00.jpg">
+                    </a>
+                </div>
+                <div class="mainpicture item" data-src="img/normalsize00.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
+                    <a href="">
+                        <img id="thumbnail" class="img-responsive" src="img/thumbnail00.jpg">
+                    </a>
+                </div>
+                </div>
+            </div>
+            <div id="mobilepics">
+            <img src="img/normalsize00.jpg" style="width:100%;">
+            <h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>
+            <img src="img/normalsize01.jpg" style="width:100%;">
+            <h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>
+            <img src="img/normalsize02.jpg" style="width:100%;">
+            <h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>
+            <img src="img/normalsize03.jpg" style="width:100%;">
+            <h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>
+            <img src="img/normalsize04.jpg" style="width:100%;">
+            <h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>
+</div>
+         </div>
+       </div>       
+
+             <script type="text/javascript">
+        $(document).ready(function(){
+            $('#lightgallery').lightGallery({
+              currentPagerPosition: 'middle',
+              mode: 'lg-fade',
+              toogleThumb: false,
+              thumbWidth: 70,
+              thumbContHeight: 70,
+        });
+        });
+        </script>
+               <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+        <script src="dist/js/lightgallery.js"></script>
+        <script src="dist/js/lg-fullscreen.js"></script>
+        <script src="dist/js/lg-thumbnail.js"></script>
+        <script src="dist/js/lg-autoplay.js"></script>
+        <script src="dist/js/lg-zoom.js"></script>
+        <script src="dist/js/lg-hash.js"></script>
+        <script src="dist/js/lg-pager.js"></script>
+        <script src="js/jquery.mousewheel.min.js"></script>
+    </body>
+     </body>
+   </div>
+</html>
